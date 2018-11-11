@@ -22,22 +22,24 @@ class HalamanController extends Controller
 
         } else {
 
+            $profil = ProfilWeb::where('link',$link)->first();
 
-            if($link == "paket"){
-                $paket = PaketModel::all();
-                return view('pelanggan/paket', compact('paket','setting'));
+            if($link == "tim-kami"){
 
-            } else if($link == "tentang-aplikasi"){
-                $profil = ProfilWeb::where('link',$link)->first();
-                return view('pelanggan/tentang-aplikasi', compact('profil','setting'));
+                return view('pelanggan/tim-kami', compact('profil','setting'));
+
+
+            } else if($link == "kontak-kami"){
+
+                return view('pelanggan/kontak-kami', compact('profil','setting'));
+
+            } else if($link == "blog"){
+
+                return view('pelanggan/blog');
                 
             } else if($link == "mari-bergabung"){
-                $profil = ProfilWeb::where('link',$link)->first();
+
                 return view('pelanggan/mari-bergabung', compact('profil','setting'));
-                
-            } else if($link == "kontak-kami"){
-                $profil = ProfilWeb::where('link',$link)->first();
-                return view('pelanggan/kontak-kami', compact('profil','setting'));
                 
             } else if($link == "daftar"){
                 $profil = ProfilWeb::where('link',$link)->first();

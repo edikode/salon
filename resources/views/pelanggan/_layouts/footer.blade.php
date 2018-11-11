@@ -5,43 +5,43 @@
 				<div class="row">
 					<div class="carousel-gallery dots-none owl-none owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1 mfp-gallery">
 						<div class="item dlab-box">
-							<a href="images/gallery/pic1.jpg" data-source="images/gallery/pic1.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic1.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic1.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic1.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic1.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="images/gallery/pic2.jpg" data-source="images/gallery/pic2.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic2.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic2.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic2.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic2.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="images/gallery/pic2.jpg" data-source="images/gallery/pic3.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic3.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic2.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic3.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic3.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="images/gallery/pic4.jpg" data-source="images/gallery/pic4.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic4.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic4.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic4.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic4.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="item  dlab-box">
-							<a href="images/gallery/pic5.jpg" data-source="images/gallery/pic5.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic5.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic5.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic5.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic5.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="images/gallery/pic6.jpg" data-source="images/gallery/pic6.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic6.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic6.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic6.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic6.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="images/gallery/pic7.jpg" data-source="images/gallery/pic7.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic7.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic7.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic7.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic7.jpg')}}" alt="">
 							</a>
 						</div>
 						<div class="item dlab-box">
-							<a href="images/gallery/pic8.jpg" data-source="images/gallery/pic8.jpg" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
-								<img src="images/gallery/pic8.jpg" alt="">
+							<a href="{{asset('pelanggan/images/gallery/pic8.jpg')}}" data-source="{{asset('pelanggan/images/gallery/pic8.jpg')}}" class="mfp-link dlab-media dlab-img-overlay3" title="Image title come here">
+								<img src="{{asset('pelanggan/images/gallery/pic8.jpg')}}" alt="">
 							</a>
 						</div>
 					</div>

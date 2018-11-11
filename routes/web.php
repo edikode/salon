@@ -9,8 +9,8 @@ Route::get('/password/reset/{token}', 'Pelanggan\Auth\ResetPasswordController@sh
 Route::post('/password/reset', 'Pelanggan\Auth\ResetPasswordController@reset');
 
 Route::get('/', 'Pelanggan\HomeController@index')->name('home');
-Route::get('daftar', 'Pelanggan\DaftarController@index');
-Route::post('simpan-pelanggan', 'Pelanggan\DaftarController@simpan');
+Route::get('daftar-pelanggan', 'Pelanggan\DaftarPelanggan@index');
+Route::post('simpan-pelanggan', 'Pelanggan\DaftarPelanggan@simpan');
 
 Route::get('daftar-pelapak', 'Pelanggan\DaftarPelapak@index');
 Route::post('simpan-pelapak', 'Pelanggan\DaftarPelapak@simpan');

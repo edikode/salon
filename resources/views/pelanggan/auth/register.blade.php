@@ -1,6 +1,13 @@
-@extends('layouts.app')
+@extends('pelanggan/_layouts.template')
 
-@section('content')
+@section('title', 'Haii... Pelanggan')
+
+@section('bread')
+
+@endsection
+
+@section('main')
+
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">

@@ -8,133 +8,6 @@
 
 @section('main')
 			
-
-		
-
-	<!-- header -->
-    <header class="site-header header center mo-left">
-		<div class="top-bar bg-primary text-white">
-			<div class="container">
-				<div class="row d-flex justify-content-between">
-					<div class="dlab-topbar-left">
-						<ul>
-							<li><i class="fa fa-phone m-r5"></i> 001 1234 6789</li>
-							<li><i class="fa fa-map-marker m-r5"></i> 6701 Democracy Blvd, Suite 300, USA</li>
-						</ul>
-					</div>
-					<div class="dlab-topbar-right topbar-social">
-						<ul>
-							<li><a href="#" class="site-button-link facebook hover"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="site-button-link google-plus hover"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="site-button-link twitter hover"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="site-button-link instagram hover"><i class="fa fa-instagram"></i></a></li>
-							<li><a href="#" class="site-button-link linkedin hover"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="site-button-link youtube hover"><i class="fa fa-youtube-play"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- main header -->
-        <div class="sticky-header main-bar-wraper navbar-expand-lg">
-            <div class="main-bar clearfix ">
-                <div class="container clearfix">
-                    <!-- website logo -->
-                    <div class="logo-header mostion">
-						<a href="index-2.html" class="dez-page"><img src="images/logo-black.png" alt=""></a>
-					</div>
-                    <!-- nav toggle button -->
-                    <button class="navbar-toggler collapsed navicon justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-						<span></span>
-						<span></span>
-						<span></span>
-					</button>
-                    <!-- main nav -->
-                    <div class="header-nav navbar-collapse collapse justify-content-between" id="navbarNavDropdown">
-                        <ul class="nav navbar-nav">	
-							<li class="active"><a href="#">Home <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="index-2.html" class="dez-page">Home 1</a></li>
-									<li><a href="index-3.html" class="dez-page">Home 2</a></li>
-								</ul>	
-							</li>
-							<li><a href="#">Pages <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="javascript:void(0);" class="dez-page">Header <span class="new-page menu-new">New</span><i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="header-1.html" class="dez-page">Header 1</a></li>
-											<li><a href="header-2.html" class="dez-page">Header 2</a></li>
-											<li><a href="header-3.html" class="dez-page">Header 3</a></li>
-											<li><a href="header-4.html" class="dez-page">Header 4</a></li>
-											<li><a href="header-5.html" class="dez-page">Header 5</a></li>
-										</ul>
-									</li>
-									<li><a href="javascript:void(0);" class="dez-page">Footer <span class="new-page menu-new">New</span><i class="fa fa-angle-right"></i></a>
-										<ul class="sub-menu">
-											<li><a href="footer-1.html" class="dez-page">Footer 1</a></li>
-											<li><a href="footer-2.html" class="dez-page">Footer 2</a></li>
-											<li><a href="footer-3.html" class="dez-page">Footer 3</a></li>
-											<li><a href="footer-4.html" class="dez-page">Footer 4</a></li>
-											<li><a href="footer-5.html" class="dez-page">Footer 5</a></li>
-										</ul>
-									</li>
-									<li><a href="about-us.html" class="dez-page">About Us</a></li>
-									<li><a href="booking.html" class="dez-page">Booking</a></li>
-									<li><a href="team.html" class="dez-page">Our Team</a></li>
-									<li><a href="under-maintenance.html" class="dez-page">Under Maintenance<span class="new-page menu-new">New</span></a></li>
-									<li><a href="coming-soon.html" class="dez-page">Coming Soon</a></li>
-									<li><a href="error-404.html" class="dez-page">Error 404</a></li>
-									<li><a href="login.html" class="dez-page">Login</a></li>
-									<li><a href="register.html" class="dez-page">Register</a></li>
-									<li><a href="contact.html" class="dez-page">Contact Us</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Our Service <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="service.html" class="dez-page">Services</a></li>
-									<li><a href="services-details.html" class="dez-page">Services Details</a></li>
-								</ul>
-							</li>
-						</ul>
-						<ul class="nav navbar-nav">
-							<li><a href="#">Blog <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="blog-classic.html" class="dez-page">Classic</a></li>
-									<li><a href="blog-classic-sidebar.html" class="dez-page">Classic Sidebar</a></li>
-									<li><a href="blog-detailed-grid.html" class="dez-page">Detailed Grid</a></li>
-									<li><a href="blog-detailed-grid-sidebar.html" class="dez-page">Detailed Grid Sidebar</a></li>
-									<li><a href="blog-left-img.html" class="dez-page">Left Image Sidebar</a></li>
-									<li><a href="blog-details.html" class="dez-page">Blog Details</a></li>
-								</ul>
-							</li>
-							<li><a href="#">Our Portfolio <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu">
-									<li><a href="portfolio-grid-2.html" class="dez-page">Portfolio Grid 2 </a></li>
-									<li><a href="portfolio-grid-3.html" class="dez-page">Portfolio Grid 3 </a></li>
-									<li><a href="portfolio-grid-4.html" class="dez-page">Portfolio Grid 4 </a></li>
-								</ul>
-							</li>
-							<li><a href="#">Shop <i class="fa fa-chevron-down"></i></a>
-								<ul class="sub-menu left">
-									<li><a href="shop-columns.html" class="dez-page">Shop Columns</a></li>
-									<li><a href="shop-columns-sidebar.html" class="dez-page">Shop Columns Sidebar</a></li>
-									<li><a href="shop-product-details.html" class="dez-page">Product Details</a></li>
-									<li><a href="shop-cart.html" class="dez-page">Cart</a></li>
-									<li><a href="shop-checkout.html" class="dez-page">Checkout</a></li>
-									<li><a href="shop-wishlist.html" class="dez-page">Wishlist</a></li>
-									<li><a href="shop-login.html" class="dez-page">Shop Login</a></li>
-									<li><a href="shop-register.html" class="dez-page">Shop Register</a></li>
-								</ul>
-							</li>
-						</ul>		
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- main header END -->
-    </header>
-    <!-- header END -->
-    <!-- Content -->
     <div class="page-content bg-white">
         <!-- Main Slider -->
         <div class="rev-slider">
@@ -142,9 +15,9 @@
 			<!-- START REVOLUTION SLIDER 5.4.6.3 fullwidth mode -->
 			<div id="rev_slider_265_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.4.6.3">
 				<ul>  <!-- SLIDE  -->
-					<li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/main-slider/slide1.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+					<li data-index="rs-100" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{asset('pelanggan/images/main-slider/slide1.jpg')}}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 						<!-- MAIN IMAGE -->
-						<img src="images/main-slider/slide1.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+						<img src="{{asset('pelanggan/images/main-slider/slide1.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 						<div class="tp-caption tp-shape d-lg-block d-none tp-shapewrapper bg-primary tp-resizeme" 
 							id="slide-100-layer-1" 
 							data-x="380" 
@@ -244,9 +117,9 @@
 							style="z-index: 11; white-space: nowrap; font-size: 16px; line-height: 30px; font-weight: 600; font-family:Montserrat;border-radius:3px 3px 3px 3px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;text-decoration: none;">	<a href="#" class="site-button-secondry button-md">Talk To US</a>
 						</div>
 					</li>
-					<li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="images/main-slider/slide2.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+					<li data-index="rs-200" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-thumb="{{asset('pelanggan/images/main-slider/slide2.jpg')}}" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
 						<!-- MAIN IMAGE -->
-						<img src="images/main-slider/slide2.jpg" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+						<img src="{{asset('pelanggan/images/main-slider/slide2.jpg')}}" alt="" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
 						<div class="tp-caption tp-shape d-lg-block d-none tp-shapewrapper bg-primary tp-resizeme" 
 							id="slide-200-layer-1" 
 							data-x="380" 
@@ -352,7 +225,7 @@
 		</div>  
         <!-- Main Slider -->
 		    <!-- About Us -->
-            <div class="section-full bg-white content-inner-2 overlay-white-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+            <div class="section-full bg-white content-inner-2 overlay-white-middle" style="background-image:url({{asset('pelanggan/images/background/bg1.png')}}), url({{asset('pelanggan/images/background/bg2.png')}}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h2 class="text-primary m-b10">Our Services</h2>
@@ -366,7 +239,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic1.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic1.jpg')}}" alt=""/>
 									<i class="flaticon-woman-1"></i>
 								</div>
 								<div class="service-content">
@@ -378,7 +251,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic2.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic2.jpg')}}" alt=""/>
 									<i class="flaticon-lotus"></i>
 								</div>
 								<div class="service-content">
@@ -390,7 +263,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic3.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic3.jpg')}}" alt=""/>
 									<i class="flaticon-candle"></i>
 								</div>
 								<div class="service-content">
@@ -402,7 +275,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic4.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic4.jpg')}}" alt=""/>
 									<i class="flaticon-candle-1"></i>
 								</div>
 								<div class="service-content">
@@ -414,7 +287,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic1.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic1.jpg')}}" alt=""/>
 									<i class="flaticon-woman-1"></i>
 								</div>
 								<div class="service-content">
@@ -426,7 +299,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic2.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic2.jpg')}}" alt=""/>
 									<i class="flaticon-lotus"></i>
 								</div>
 								<div class="service-content">
@@ -438,7 +311,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic3.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic3.jpg')}}" alt=""/>
 									<i class="flaticon-candle"></i>
 								</div>
 								<div class="service-content">
@@ -450,7 +323,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic4.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic4.jpg')}}" alt=""/>
 									<i class="flaticon-candle-1"></i>
 								</div>
 								<div class="service-content">
@@ -462,7 +335,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic1.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic1.jpg')}}" alt=""/>
 									<i class="flaticon-woman-1"></i>
 								</div>
 								<div class="service-content">
@@ -474,7 +347,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic2.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic2.jpg')}}" alt=""/>
 									<i class="flaticon-lotus"></i>
 								</div>
 								<div class="service-content">
@@ -486,7 +359,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic3.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic3.jpg')}}" alt=""/>
 									<i class="flaticon-candle"></i>
 								</div>
 								<div class="service-content">
@@ -498,7 +371,7 @@
 						<div class="item">
 							<div class="service-box text-center">
 								<div class="service-images m-b15">
-									<img src="images/our-services/pic4.jpg" alt=""/>
+									<img src="{{asset('pelanggan/images/our-services/pic4.jpg')}}" alt=""/>
 									<i class="flaticon-candle-1"></i>
 								</div>
 								<div class="service-content">
@@ -515,7 +388,7 @@
             </div>
 			<!-- About Us End -->
 			<!-- Our Services -->
-			<div class="section-full content-inner-3 services-box bg-pink-light" style="background-image:url(images/background/bg5.jpg); background-position: bottom; background-size: 100%; background-repeat: no-repeat;">
+			<div class="section-full content-inner-3 services-box bg-pink-light" style="background-image:url({{asset('pelanggan/images/background/bg5.jpg')}}); background-position: bottom; background-size: 100%; background-repeat: no-repeat;">
                 <div class="container">
 					<div class="row">
 						<div class="col-lg-3 col-md-6 col-sm-6 m-b30">
@@ -563,7 +436,7 @@
             </div>
             <!-- Our Services -->
 			<!-- Why Chose Us -->
-			<div class="section-full content-inner-2 our-portfolio" style="background-image:url(images/background/bg6.jpg); background-size: cover;">
+			<div class="section-full content-inner-2 our-portfolio" style="background-image:url({{asset('pelanggan/images/background/bg6.jpg')}}); background-size: cover;">
 				<div class="container">
 					<div class="section-head text-black text-center m-b20">
 						<h2 class="text-primary m-b10">Our Portfolio</h2>
@@ -590,10 +463,10 @@
 							<li class="image-1 image-4 card-container col-lg-3 col-md-3 col-sm-3">
 								<div class="dlab-box">
 									<div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-									<img src="images/gallery/image-1.jpg" alt="">
+									<img src="{{asset('pelanggan/images/gallery/image-1.jpg')}}" alt="">
 										<div class="overlay-bx">
 											<div class="overlay-icon">
-												<a class="mfp-link" title="Image Title Come Here" href="images/gallery/image-1.jpg">  
+												<a class="mfp-link" title="Image Title Come Here" href="{{asset('pelanggan/images/gallery/image-1.jpg')}}">  
 													<i class="ti-fullscreen"></i>
 												</a> 
 											</div>
@@ -602,10 +475,10 @@
 								</div>
 								<div class="dlab-box p-tb30 image-2">
 									<div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-									<img src="images/gallery/image-2.jpg" alt="">
+									<img src="{{asset('pelanggan/images/gallery/image-2.jpg')}}" alt="">
 										<div class="overlay-bx">
 											<div class="overlay-icon">
-												<a class="mfp-link" title="Image Title Come Here" href="images/gallery/image-2.jpg"> 
+												<a class="mfp-link" title="Image Title Come Here" href="{{asset('pelanggan/images/gallery/image-2.jpg')}}"> 
 													<i class="ti-fullscreen"></i>
 												</a> 
 											</div>
@@ -616,10 +489,10 @@
 							<li class="image-2 card-container col-lg-6 col-md-6 col-sm-6">
 								<div class="dlab-box m-b30">
 									<div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-									<img src="images/gallery/image-3.jpg" alt="">
+									<img src="{{asset('pelanggan/images/gallery/image-3.jpg')}}" alt="">
 										<div class="overlay-bx">
 											<div class="overlay-icon">
-												<a class="mfp-link" title="Image Title Come Here" href="images/gallery/image-3.jpg"> 
+												<a class="mfp-link" title="Image Title Come Here" href="{{asset('pelanggan/images/gallery/image-3.jpg')}}"> 
 													<i class="ti-fullscreen"></i>
 												</a> 
 											</div>
@@ -630,10 +503,10 @@
 							<li class="image-3 image-4 card-container col-lg-3 col-md-3 col-sm-3">
 								<div class="dlab-box m-b30">
 									<div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-									<img src="images/gallery/image-4.jpg" alt="">
+									<img src="{{asset('pelanggan/images/gallery/image-4.jpg')}}" alt="">
 										<div class="overlay-bx">
 											<div class="overlay-icon">
-												<a class="mfp-link" title="Image Title Come Here" href="images/gallery/image-4.jpg"> 
+												<a class="mfp-link" title="Image Title Come Here" href="{{asset('pelanggan/images/gallery/image-4.jpg')}}"> 
 													<i class="ti-fullscreen"></i>
 												</a>  
 											</div>
@@ -642,10 +515,10 @@
 								</div>
 								<div class="dlab-box">
 									<div class="dlab-media dlab-img-overlay9 dlab-img-effect zoom">
-									<img src="images/gallery/image-5.jpg" alt="">
+									<img src="{{asset('pelanggan/images/gallery/image-5.jpg')}}" alt="">
 										<div class="overlay-bx">
 											<div class="overlay-icon">
-												<a class="mfp-link" title="Image Title Come Here" href="images/gallery/image-5.jpg"> 
+												<a class="mfp-link" title="Image Title Come Here" href="{{asset('pelanggan/images/gallery/image-5.jpg')}}"> 
 													<i class="ti-fullscreen"></i>
 												</a> 
 											</div>
@@ -659,7 +532,7 @@
 			</div>
 			<!-- Why Chose Us End -->
 			<!-- Our Portfolio -->
-			<div class="section-full video-presentation overlay-black-dark bg-img-fix"  style="background-image:url(images/background/bg1.jpg);">
+			<div class="section-full video-presentation overlay-black-dark bg-img-fix"  style="background-image:url({{asset('pelanggan/images/background/bg1.jpg')}});">
                 <div class="container">
 					<div class="row">
 						<div class="col-lg-12 col-md-12 text-white text-center">
@@ -674,7 +547,7 @@
             </div>
 			<!-- Our Portfolio END -->
 			<!-- Our Professional Team -->
-			<div class="section-full content-inner-2 overlay-white-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+			<div class="section-full content-inner-2 overlay-white-middle" style="background-image:url({{asset('pelanggan/images/background/bg1.png')}}), url({{asset('pelanggan/images/background/bg2.png')}}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
 				<div class="container">
 					<div class="section-head text-black text-center">
 						<h2 class="text-primary m-b10">Our Professional Team</h2>
@@ -686,7 +559,7 @@
 					<div class="team-carousel owl-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-dots-primary-full owl-loaded owl-drag">
 						<div class="item">
 							<div class="dlab-box text-center team-box">
-								<div class="dlab-media"> <img src="images/our-team/pic1.jpg" alt=""></div>
+								<div class="dlab-media"> <img src="{{asset('pelanggan/images/our-team/pic1.jpg')}}" alt=""></div>
 								<div class="dlab-title-bx p-a10">
 									<h5 class="text-black m-a0"><a href="#">John Doe</a></h5>
 									<span class="clearfix">Cosmetologist</span>
@@ -695,7 +568,7 @@
 						</div>
 						<div class="item">
 							<div class="dlab-box text-center team-box">
-								<div class="dlab-media"> <img src="images/our-team/pic2.jpg" alt=""></div>
+								<div class="dlab-media"> <img src="{{asset('pelanggan/images/our-team/pic2.jpg')}}" alt=""></div>
 								<div class="dlab-title-bx p-a10">
 									<h5 class="text-black m-a0"><a href="#">John Doe</a></h5>
 									<span class="clearfix">Cosmetologist</span>
@@ -704,7 +577,7 @@
 						</div>	
 						<div class="item">
 							<div class="dlab-box text-center team-box">
-								<div class="dlab-media"> <img src="images/our-team/pic3.jpg" alt=""></div>
+								<div class="dlab-media"> <img src="{{asset('pelanggan/images/our-team/pic3.jpg')}}" alt=""></div>
 								<div class="dlab-title-bx p-a10">
 									<h5 class="text-black m-a0"><a href="#">John Doe</a></h5>
 									<span class="clearfix">Cosmetologist</span>
@@ -713,7 +586,7 @@
 						</div>	
 						<div class="item">
 							<div class="dlab-box text-center team-box">
-								<div class="dlab-media"> <img src="images/our-team/pic5.jpg" alt=""></div>
+								<div class="dlab-media"> <img src="{{asset('pelanggan/images/our-team/pic5.jpg')}}" alt=""></div>
 								<div class="dlab-title-bx p-a10">
 									<h5 class="text-black m-a0"><a href="#">John Doe</a></h5>
 									<span class="clearfix">Cosmetologist</span>
@@ -722,7 +595,7 @@
 						</div>	
 						<div class="item">
 							<div class="dlab-box text-center team-box">
-								<div class="dlab-media"> <img src="images/our-team/pic4.jpg" alt=""></div>
+								<div class="dlab-media"> <img src="{{asset('pelanggan/images/our-team/pic4.jpg')}}" alt=""></div>
 								<div class="dlab-title-bx p-a10">
 									<h5 class="text-black m-a0"><a href="#">John Doe</a></h5>
 									<span class="clearfix">Cosmetologist</span>
@@ -734,7 +607,7 @@
 			</div>
 			<!-- Our Professional Team End -->
 			<!-- Our Portfolio -->
-			<div class="section-full content-inner-2" style="background-image:url(images/background/bg4.jpg); background-position: bottom; background-size:cover;">
+			<div class="section-full content-inner-2" style="background-image:url({{asset('pelanggan/images/background/bg4.jpg')}}); background-position: bottom; background-size:cover;">
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h2 class="text-primary m-b10">Testimonials Of Our Clients</h2>
@@ -746,7 +619,7 @@
 					<div class="testimonial-two-dots owl-carousel owl-theme owl-dots-primary-full owl-btn-center-lr owl-btn-3">
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic1.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>BeautyZone was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 								</div>
@@ -755,7 +628,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic2.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic2.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>BeautyZone was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 								</div>
@@ -764,7 +637,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic3.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic3.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>I think it is awesome and I can't thank you enough for working so closely with me. The entire team has been great to work.</p>
 								</div>
@@ -773,7 +646,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic1.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>BeautyZone was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 								</div>
@@ -782,7 +655,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic2.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic2.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>BeautyZone was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 								</div>
@@ -791,7 +664,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic3.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic3.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>I think it is awesome and I can't thank you enough for working so closely with me. The entire team has been great to work.</p>
 								</div>
@@ -800,7 +673,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic1.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic1.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>BeautyZone was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 								</div>
@@ -809,7 +682,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic2.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic2.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>BeautyZone was extremely creative and forward thinking. They are also very quick and efficient when executing changes for us.</p>
 								</div>
@@ -818,7 +691,7 @@
 						</div>
 						<div class="item p-a5">
 							<div class="testimonial-9">
-								<div class="testimonial-pic radius style1"><img src="images/testimonials/pic3.jpg" width="100" height="100" alt=""></div>
+								<div class="testimonial-pic radius style1"><img src="{{asset('pelanggan/images/testimonials/pic3.jpg')}}" width="100" height="100" alt=""></div>
 								<div class="testimonial-text">
 									<p>I think it is awesome and I can't thank you enough for working so closely with me. The entire team has been great to work.</p>
 								</div>
@@ -830,7 +703,7 @@
             </div>
 			<!-- Our Portfolio END -->
 			<!-- Our Portfolio -->
-			<div class="section-full content-inner overlay-white-middle" style="background-image:url(images/background/bg1.png), url(images/background/bg2.png); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
+			<div class="section-full content-inner overlay-white-middle" style="background-image:url({{asset('pelanggan/images/background/bg1.png')}}), url({{asset('pelanggan/images/background/bg2.png')}}); background-position: bottom, top; background-size: 100%; background-repeat: no-repeat;">
                 <div class="container">
 					<div class="section-head text-black text-center">
 						<h2 class="text-primary m-b10">Our Latest Blog</h2>
@@ -842,7 +715,7 @@
 					<div class="blog-carousel owl-carousel owl-btn-center-lr owl-btn-3 owl-theme owl-btn-center-lr owl-btn-1">
 						<div class="item">
                             <div class="blog-post blog-grid blog-style-1">
-                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="images/blog/grid/pic4.jpg" alt=""></a> </div>
+                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{asset('pelanggan/images/blog/grid/pic4.jpg')}}" alt=""></a> </div>
                                 <div class="dlab-info">
 									 <div class="dlab-post-meta">
 										<ul class="d-flex align-items-center">
@@ -861,7 +734,7 @@
                         </div>
 						<div class="item">
                             <div class="blog-post blog-grid blog-style-1">
-                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="images/blog/grid/pic3.jpg" alt=""></a> </div>
+                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{asset('pelanggan/images/blog/grid/pic3.jpg')}}" alt=""></a> </div>
                                 <div class="dlab-info">
 									 <div class="dlab-post-meta">
 										<ul class="d-flex align-items-center">
@@ -880,7 +753,7 @@
                         </div>
 						<div class="item">
                             <div class="blog-post blog-grid blog-style-1">
-                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="images/blog/grid/pic2.jpg" alt=""></a> </div>
+                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{asset('pelanggan/images/blog/grid/pic2.jpg')}}" alt=""></a> </div>
                                 <div class="dlab-info">
 									 <div class="dlab-post-meta">
 										<ul class="d-flex align-items-center">
@@ -899,7 +772,7 @@
                         </div>
 						<div class="item">
                             <div class="blog-post blog-grid blog-style-1">
-                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="images/blog/grid/pic1.jpg" alt=""></a> </div>
+                                <div class="dlab-post-media dlab-img-effect radius-sm"> <a href="#"><img src="{{asset('pelanggan/images/blog/grid/pic1.jpg')}}" alt=""></a> </div>
                                 <div class="dlab-info">
 									 <div class="dlab-post-meta">
 										<ul class="d-flex align-items-center">
@@ -921,9 +794,5 @@
             </div>
         <!-- contact area END -->
     </div>
-    <!-- Content END-->
-	<!-- Footer -->
-    
-	
 	
 @endsection

@@ -8,86 +8,120 @@
 
 @section('main')
 			
-	<!--breadcrumbs area start-->
-	<div class="breadcrumbs_area bread_about">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					<div class="breadcrumb_content">
-						<div class="breadcrumb_header">
-							<a href="{{url('/')}}"><i class="fa fa-home"></i></a>
-							<span><i class="fa fa-angle-right"></i></span>
-							<span> {{$profil->nama}}</span>
-						</div>
-						{{-- <div class="breadcrumb_title">
-							<h2>{{$profil->nama}}</h2>
-						</div> --}}
+	<div class="page-content bg-white">
+		<!-- inner page banner -->
+        <div class="dlab-bnr-inr dlab-bnr-inr overlay-primary bg-pt" style="background-image:url(../../{{asset('pelanggan/images/banner/bnr1.jpg')}});">
+            <div class="container">
+                <div class="dlab-bnr-inr-entry">
+                    <h1 class="text-white">Contact Us</h1>
+					<!-- Breadcrumb row -->
+					<div class="breadcrumb-row">
+						<ul class="list-inline">
+							<li><a href="#">Home</a></li>
+							<li>Contact Us</li>
+						</ul>
 					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!--breadcrumbs area end-->
-
-	<div class="contact_area mb-40">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="contact_message">
-						<div class="contact_title">
-							<h2>Hubungi Kami</h2>   
-						</div>
-						<form id="contact-form" method="POST"  action="https://d29u17ylf1ylz9.cloudfront.net/lion-v2/lion/assets/mail.php">
-							<div class="row">
-								<div class="col-lg-6">
-									<input name="name" placeholder="Name *" type="text">    
-								</div>
-								<div class="col-lg-6">
-									<input name="email" placeholder="Email *" type="email">    
-								</div>
-								<div class="col-lg-6">
-									<input name="subject" placeholder="Subject *" type="text">   
-								</div>
-									<div class="col-lg-6">
-									<input name="phone" placeholder="Phone *" type="text">   
-								</div>
-								
-								<div class="col-12">
-									<div class="contact_textarea">
-										<textarea placeholder="Message *" name="message"  class="form-control2" ></textarea>     
-									</div>   
-									<button type="submit"> Kirim Pesan </button>  
-								</div> 
-								<div class="col-12">
-									<p class="form-messege"></p>
-								</div>
+					<!-- Breadcrumb row END -->
+                </div>
+            </div>
+        </div>
+        <!-- inner page banner END -->
+		<!-- contact area -->
+        <div class="section-full content-inner bg-white contact-style-1">
+			<div class="container">
+                <div class="row">
+					<!-- right part start -->
+					<div class="col-lg-4 col-md-6 d-lg-flex d-md-flex">
+                        <div class="p-a30 border m-b30 contact-area border-1 align-self-stretch ">
+							<h4 class="m-b10">Quick Contact</h4>
+							<p>If you have any questions simply use the following contact details.</p>
+                            <ul class="no-margin">
+                                <li class="icon-bx-wraper left m-b30">
+                                    <div class="icon-bx-xs border-1"> <a href="#" class="icon-cell"><i class="ti-location-pin"></i></a> </div>
+                                    <div class="icon-content">
+                                        <h6 class="text-uppercase m-tb0 dlab-tilte">Address:</h6>
+                                        <p>123 West Street, Melbourne Victoria 3000 Australia</p>
+                                    </div>
+                                </li>
+                                <li class="icon-bx-wraper left  m-b30">
+                                    <div class="icon-bx-xs border-1"> <a href="#" class="icon-cell"><i class="ti-email"></i></a> </div>
+                                    <div class="icon-content">
+                                        <h6 class="text-uppercase m-tb0 dlab-tilte">Email:</h6>
+                                        <p>info@example.com</p>
+                                    </div>
+                                </li>
+                                <li class="icon-bx-wraper left">
+                                    <div class="icon-bx-xs border-1"> <a href="#" class="icon-cell"><i class="ti-mobile"></i></a> </div>
+                                    <div class="icon-content">
+                                        <h6 class="text-uppercase m-tb0 dlab-tilte">PHONE</h6>
+                                        <p>+61 3 8376 6284</p>
+                                    </div>
+                                </li>
+                            </ul>
+							<div class="m-t20">
+								<ul class="dlab-social-icon dlab-social-icon-lg">
+									<li><a href="javascript:void(0);" class="fa fa-facebook bg-primary"></a></li>
+									<li><a href="javascript:void(0);" class="fa fa-twitter bg-primary"></a></li>
+									<li><a href="javascript:void(0);" class="fa fa-linkedin bg-primary"></a></li>
+									<li><a href="javascript:void(0);" class="fa fa-pinterest-p bg-primary"></a></li>
+									<li><a href="javascript:void(0);" class="fa fa-google-plus bg-primary"></a></li>
+								</ul>
 							</div>
-						</form>    
-					</div> 
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="contact_info_wrapper">
-						<div class="contact_title">
-							<h4>{{$profil->deskripsi}}</h4>    
-						</div>
-						<div class="contact_info mb-15">
-							<p>@php echo $profil->teks @endphp</p>
-						</div>
-						<div class="contact_info mb-15">
-							<ul>
-								<li><i class="fa fa-fax"></i>  Alamat : {{$setting->alamat}}</li>
-								<li><i class="fa fa-phone"></i> <a href="mailto:{{$setting->email}}">{{$setting->email}}</a></li>
-								<li><i class="fa fa-envelope-o"></i> {{$setting->telepon}}</li>
-							</ul>        
-						</div>
-						{{-- <div class="contact_info mb-15">
-							<h3><strong>Working hours</strong></h3>
-							<p><strong>Monday – Saturday</strong>:  08AM – 22PM</p>    
-						</div>     --}}
-					</div> 
-				</div>
-			</div>
-		</div>
-	</div>
+                        </div>
+                    </div>
+                    <!-- right part END -->
+                    <!-- Left part start -->
+					<div class="col-lg-4 col-md-6">
+                        <div class="p-a30 m-b30 	bg-gray clearfix">
+							<h4>Send Message Us</h4>
+							<div class="dzFormMsg"></div>
+							<form method="post" class="dzForm" action="http://beautyzone.dexignzone.com/xhtml/script/contact.php">
+							<input type="hidden" value="Contact" name="dzToDo" >
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <input name="dzName" type="text" required class="form-control" placeholder="Your Name">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <div class="input-group"> 
+											    <input name="dzEmail" type="email" class="form-control" required  placeholder="Your Email Id" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="col-lg-12">
+                                        <div class="form-group">
+                                            <div class="input-group">
+                                                <textarea name="dzMessage" rows="4" class="form-control" required placeholder="Your Message..."></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+									<div class="col-lg-12">
+										<div class="form-group">
+											<div class="input-group">
+												<div class="g-recaptcha" data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+												<input class="form-control d-none" style="display:none;" data-recaptcha="true" required data-error="Please complete the Captcha">
+											</div>
+										</div>
+									</div>
+                                    <div class="col-lg-12">
+                                        <button name="submit" type="submit" value="Submit" class="site-button "> <span>Submit</span> </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- Left part END -->
+					<div class="col-lg-4 col-md-12 d-lg-flex m-b30">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227748.3825624477!2d75.65046970649679!3d26.88544791796718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396c4adf4c57e281%3A0xce1c63a0cf22e09!2sJaipur%2C+Rajasthan!5e0!3m2!1sen!2sin!4v1500819483219" class="align-self-stretch " style="border:0; width:100%; min-height:350px;" allowfullscreen></iframe>
+					</div>
+                </div>
+            </div>
+        </div>
+        <!-- contact area  END -->
+    </div>
 	
 @endsection
