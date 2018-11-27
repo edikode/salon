@@ -1,25 +1,3 @@
-{{-- <!doctype html>
-<html class="no-js" lang="zxx">
-    
-<!-- Mirrored from d29u17ylf1ylz9.cloudfront.net/lion-v2/lion/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 30 Sep 2018 13:58:15 GMT -->
-<head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Saline App - Jasa Rias Banyuwangi</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- Favicon -->
-        <link rel="shortcut icon" type="image/x-icon" href="{{ asset('pelanggan/img/favicon.png') }}">
-		
-		<!-- all css here -->
-        <link rel="stylesheet" href="{{ asset('pelanggan/css/bootstrap.min.css') }}">
-        <link rel="stylesheet" href="{{ asset('pelanggan/css/bundle.css') }}">
-        <link rel="stylesheet" href="{{ asset('pelanggan/css/plugins.css') }}">
-        <link rel="stylesheet" href="{{ asset('pelanggan/css/style.css') }}">
-        <link rel="stylesheet" href="{{ asset('pelanggan/css/responsive.css') }}">
-        <script src="{{ asset('pelanggan/js/vendor/modernizr-2.8.3.min.js') }}"></script>
-    </head>
-    <body> --}}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,7 +32,11 @@
 	<link rel="stylesheet" type="text/css" href="{{ asset('pelanggan/plugins/revolution/revolution/css/layers.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('pelanggan/plugins/revolution/revolution/css/settings.css') }}">
 	<link rel="stylesheet" type="text/css" href="{{ asset('pelanggan/plugins/revolution/revolution/css/navigation.css') }}">
-	<!-- Revolution Navigation Style -->
+    <!-- Revolution Navigation Style -->
+    
+    {{-- khusus booking --}}
+    <link class="skin" rel="stylesheet" type="text/css" href="{{ asset('pelanggan/plugins/smartwizard/css/smart_wizard.css')}}">
+	<link rel="stylesheet" href="{{ asset('pelanggan/plugins/datepicker/css/bootstrap-datetimepicker.min.css')}}"/>
 </head>
 <body id="bg">
     <div class="page-wraper">
@@ -72,6 +54,9 @@
 
         <button class="scroltop fa fa-chevron-up" ></button>
     </div>
+
+    
+    
     <!-- JAVASCRIPT FILES ========================================= -->
     <script src="{{asset('pelanggan/js/jquery.min.js')}}"></script><!-- JQUERY.MIN JS -->
     <script src="{{asset('pelanggan/plugins/wow/wow.js')}}"></script><!-- WOW JS -->
@@ -95,7 +80,7 @@
     <script src="{{asset('pelanggan/plugins/revolution/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
     <script src="{{asset('pelanggan/plugins/revolution/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
     <!-- Slider revolution 5.0 Extensions  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
-    <script src="{{asset('pelanggan/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+    {{-- <script src="{{asset('pelanggan/plugins/revolution/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
     <script src="{{asset('pelanggan/plugins/revolution/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
     <script src="{{asset('pelanggan/plugins/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
     <script src="{{asset('pelanggan/plugins/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
@@ -110,6 +95,82 @@
         'use strict';
         dz_rev_slider_1();
     });	/*ready*/
+    </script> --}}
+
+    <script src="{{asset('pelanggan/plugins/datepicker/js/moment.js')}}"></script><!-- DATEPICKER JS -->
+    <script src="{{asset('pelanggan/plugins/datepicker/js/bootstrap-datetimepicker.min.js')}}"></script><!-- DATEPICKER JS -->
+    <script src="{{asset('pelanggan/plugins/smartwizard/js/jquery.smartWizard.js')}}"></script>
+    <script>
+        $(document).ready(function(){
+
+            // Step show event
+            $("#smartwizard").on("showStep", function(e, anchorObject, stepNumber, stepDirection, stepPosition) {
+            //alert("You are on step "+stepNumber+" now");
+            if(stepPosition === 'first'){
+                $("#prev-btn").addClass('disabled');
+            }else if(stepPosition === 'final'){
+                $("#next-btn").addClass('disabled');
+            }else{
+                $("#prev-btn").removeClass('disabled');
+                $("#next-btn").removeClass('disabled');
+            }
+            });
+
+            // Toolbar extra buttons
+            var btnFinish = $('<button></button>').text('Finish')
+                                            .addClass('btn btn-info')
+                                            .on('click', function(){ alert('Finish Clicked'); });
+            var btnCancel = $('<button></button>').text('Cancel')
+                                            .addClass('btn btn-danger')
+                                            .on('click', function(){ $('#smartwizard').smartWizard("reset"); });
+
+
+            // Smart Wizard
+            $('#smartwizard').smartWizard({
+                    selected: 0,
+                    theme: 'default',
+                    transitionEffect:'fade',
+                    showStepURLhash: true,
+                    toolbarSettings: {toolbarPosition: 'both',
+                                    toolbarButtonPosition: 'end',
+                                    toolbarExtraButtons: [btnFinish, btnCancel]
+                                    }
+            });
+
+
+            // External Button Events
+            $("#reset-btn").on("click", function() {
+                // Reset wizard
+                $('#smartwizard').smartWizard("reset");
+                return true;
+            });
+
+            $("#prev-btn").on("click", function() {
+                // Navigate previous
+                $('#smartwizard').smartWizard("prev");
+                return true;
+            });
+
+            $("#next-btn").on("click", function() {
+                // Navigate next
+                $('#smartwizard').smartWizard("next");
+                return true;
+            });
+
+            $("#theme_selector").on("change", function() {
+                // Change theme
+                $('#smartwizard').smartWizard("theme", $(this).val());
+                return true;
+            });
+
+            // Set selected theme on page refresh
+            $("#theme_selector").change();
+        });
+    </script>
+    <script>
+    jQuery(document).ready(function() {
+        $('#datetimepicker4').datetimepicker();
+    });	
     </script>
     </body>
 

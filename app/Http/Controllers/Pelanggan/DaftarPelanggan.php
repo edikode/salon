@@ -26,11 +26,12 @@ class DaftarPelanggan extends Controller
     public function simpan(Request $request)
     {
         // kirim email
+
         $pelanggan = new PelangganModel;
         
         $this->validate($request, [
             'email'     => 'required|unique:pelanggan,email,'.$pelanggan['id'],
-            'password'  => 'required|min:6|same:konfirmasiPassword'
+            'password'  => 'required|min:6'
         ]);
 
         $pelanggan->nama = $request->nama;
@@ -49,7 +50,7 @@ class DaftarPelanggan extends Controller
 
         Session::flash('pesan_sukses', 'Pendaftaran Berhasil, Aktifkan akun melalui email pendaftaran !');
 
-        return view('pelanggan/daftar-pelanggan');
+        return redirect('login');
     }
 
     

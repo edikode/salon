@@ -32,15 +32,15 @@
             <div class="container">
                 <div class="row">
 					<div class="col-md-12 text-center">
-						<h3 class="font-weight-700 m-t0 m-b20">Already Registered?</h3>
+						<h3 class="font-weight-700 m-t0 m-b20">Sudah Punya Akun?</h3>
 					</div>
 				</div>
                 <div class="row dzseth">
 					<div class="col-lg-6 col-md-12 col-sm-12 m-b30">
 						<div class="p-a30 border-1 seth">
 							<div class="tab-content">
-									<h4 class="font-weight-700">NEW CUSTOMER</h4>
-									<p class="font-weight-600">By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
+									<h4 class="font-weight-700">Pelanggan Baru</h4>
+									<p class="font-weight-600">Pelanggan yang belum punya akun, harus membuat akun pada aplikasi terlebih dahulu.</p>
 									<a class="site-button m-r5 button-lg radius-no" href="{{url('daftar-pelanggan')}}">Buat Akun</a>
 							</div>
 						</div>
@@ -48,32 +48,22 @@
 					<div class="col-lg-6 col-md-12 col-sm-12 m-b30">
 						<div class="p-a30 border-1">
 							<div class="tab-content nav">
-								<form id="login" class="tab-pane active col-12 p-a0 ">
+								<form class="tab-pane active col-12 p-a0" action="{{ route('login.submit') }}" method="post">
+								{{ csrf_field() }}
+
+								@include('errors/pesan_error') 
 									<h4 class="font-weight-700">LOGIN</h4>
-									<p class="font-weight-600">If you have an account with us, please log in.</p>
+									<p class="font-weight-600">Masukkan Email dan Password anda.</p>
 									<div class="form-group">
 										<label class="font-weight-700">E-MAIL *</label>
-										<input name="dzName" required="" class="form-control" placeholder="Your Email Id" type="email">
+										<input type="email" class="form-control" name="email" placeholder="Email" value="{{ old('email') }}" required>
 									</div>
 									<div class="form-group">
 										<label class="font-weight-700">PASSWORD *</label>
-										<input name="dzName" required="" class="form-control " placeholder="Type Password" type="password">
+										<input type="password" class="form-control password" name="password" placeholder="Password">
 									</div>
 									<div class="text-left">
-										<button class="site-button m-r5 button-lg radius-no">login</button>
-										<a data-toggle="tab" href="#forgot-password" class="m-l5"><i class="fa fa-unlock-alt"></i> Forgot Password</a> 
-									</div>
-								</form>
-								<form id="forgot-password" class="tab-pane fade  col-12 p-a0">
-									<h4 class="font-weight-700">FORGET PASSWORD ?</h4>
-									<p class="font-weight-600">We will send you an email to reset your password. </p>
-									<div class="form-group">
-										<label class="font-weight-700">E-MAIL *</label>
-										<input name="dzName" required="" class="form-control" placeholder="Your Email Id" type="email">
-									</div>
-									<div class="text-left"> 
-										<a class="site-button outline gray button-lg radius-no" data-toggle="tab" href="#login">Back</a>
-										<button class="site-button pull-right button-lg radius-no">Submit</button>
+										<button name="submit" type="submit" class="site-button m-r5 button-lg radius-no">login</button>
 									</div>
 								</form>
 							</div>

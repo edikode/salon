@@ -86,7 +86,7 @@
 											<i class='glyphicon glyphicon-remove'></i> Error. Gambar Kosong. Silahkan upload lagi.
 										</div>
 										<div class="fileupload fileupload-new" data-provides="fileupload">
-											<div class="fileupload-new thumbnail" style="max-width:334px; max-height:253px;"><img src="{{ asset('assets/images/400x300.jpg') }}" alt=""/>
+											<div class="fileupload-new thumbnail" style="max-width:334px; max-height:253px;"><img src="{{ asset('admins/images/400x300.jpg') }}" alt=""/>
 											</div>
 											<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 400px; max-height: 300px; line-height: 20px;"></div>
 											<div>
@@ -101,7 +101,7 @@
 									@endif
 								@else
 								<div class="fileupload fileupload-new" data-provides="fileupload">
-									<div class="fileupload-new thumbnail" style="max-width:334px; max-height:253px;"><img src="{{ asset('assets/images/400x300.jpg') }}" alt=""/>
+									<div class="fileupload-new thumbnail" style="max-width:334px; max-height:253px;"><img src="{{ asset('admins/images/400x300.jpg') }}" alt=""/>
 									</div>
 									<div class="fileupload-preview fileupload-exists thumbnail" style="max-width: 400px; max-height: 300px; line-height: 20px;"></div>
 									<div>

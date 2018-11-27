@@ -60,8 +60,21 @@
 					</ul>
 					<ul class="nav navbar-nav">	
 						<li><a href="{{url('blog')}}" class="dez-page">Blog</a></li>
-						<li><a href="{{url('faq')}}" class="dez-page">FAQ</a></li>
-						<li><a href="{{url('login')}}" class="dez-page">Login</a></li>
+						
+						@if (Auth::guest())
+							<li><a href="{{url('login')}}" class="dez-page">Login</a></li>
+						@else
+							<li><a href="{{url('status/pembayaran')}}"  class="dez-page">Pembayaran</a></li>
+							<li>
+								<a href="{{ url('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="dez-page">
+									({{Auth::user()->nama}}) Keluar
+								</a>
+
+								<form id="logout-form" action="{{ url('logout') }}" method="POST" style="display: none;">
+									{{ csrf_field() }}
+								</form>
+							</li>
+						@endif
 					</ul>		
 				</div>
 			</div>

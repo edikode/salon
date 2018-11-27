@@ -62,6 +62,7 @@
   <script src="{{ asset('admins/plugins/bootstrap/js/bootstrap.min.js') }}"></script>
   <!-- UNTUK FORM -->
   {{-- input limit karakter --}}
+  <script src="{{ asset('admins/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js') }}"></script>
   <script src="{{ asset('admins/plugins/jquery-inputlimiter/jquery.inputlimiter.1.3.1.min.js') }}"></script>
   {{-- teks deskripsi height menyesuaikan --}}
   <script src="{{ asset('admins/plugins/autosize/jquery.autosize.min.js') }}"></script>
@@ -75,7 +76,7 @@
   {{-- untuk upload gambar --}}
   <script src="{{ asset('admins/plugins/bootstrap-fileupload/bootstrap-fileupload.min.js') }}"></script>
   {{-- untuk ckeditor textarea --}}
-  <script src="{{ asset('functions/ckeditor/ckeditor.js') }}"></script>
+  <script src="{{ asset('admins/functions/ckeditor/ckeditor.js') }}"></script>
   {{-- upload gambar banyak --}}
   <script src="{{ asset('admins/js/dropzone.js') }}"></script>
   <!-- untuk data table -->   

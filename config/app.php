@@ -169,6 +169,9 @@ return [
         Barryvdh\DomPDF\ServiceProvider::class,
         // Zizaco\Entrust\EntrustServiceProvider::class,
 
+        // bca
+        Odenktools\Bca\BcaServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
@@ -234,6 +237,9 @@ return [
         'Image' => Intervention\Image\Facades\Image::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
         // 'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
+
+        // bca
+        'Bca'  => Odenktools\Bca\Facades\Bca::class,
 
     ],
 

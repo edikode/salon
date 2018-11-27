@@ -25,7 +25,7 @@
 					</li>
 				</ul>
 			</li>
-			<li class="{{ set_active(['admin/kategori', Request::is('admin/kategori/*'),'admin/paket', Request::is('admin/paket/*')]) }}">
+			{{-- <li class="{{ set_active(['admin/kategori', Request::is('admin/kategori/*'),'admin/paket', Request::is('admin/paket/*')]) }}">
 				<a href="javascript:void(0)"><i class="clip-stack"></i>
 					<span class="title">Paket</span><i class="icon-arrow"></i>
 					<span class="selected"></span>
@@ -38,7 +38,7 @@
 						<a href="{{ url('admin/kategori') }}"><span class='title'>Kategori Paket</span></a>
 					</li>
 				</ul>
-			</li>
+			</li> --}}
 			<li class="{{ set_active(['admin/pemesanan', Request::is('admin/pemesanan/*')]) }}">
 				<a href="{{ url('/admin/pemesanan') }}"><i class="clip-stack"></i>
 					<span class="title">Data Pemesanan</span>

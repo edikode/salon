@@ -2,7 +2,7 @@
 
 @section('main')
 <div class="main-login col-sm-4 col-sm-offset-4">
-        <div class="logo"><img src="{{asset('assets/images/wisataalam.png')}}">
+        <div class="logo"><img src="{{asset('admins/images/saline.png')}}">
         </div>
 
         <div class="box-login">

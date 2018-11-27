@@ -13,12 +13,12 @@
         <div class="dlab-bnr-inr overlay-primary bg-pt" style="background-image:url({{asset('pelanggan/images/banner/bnr2.jpg')}});">
             <div class="container">
                 <div class="dlab-bnr-inr-entry">
-                    <h1 class="text-white">Register</h1>
+                    <h1 class="text-white">Registrasi</h1>
 					<!-- Breadcrumb row -->
 					<div class="breadcrumb-row">
 						<ul class="list-inline">
 							<li><a href="#">Home</a></li>
-							<li>Register</li>
+							<li>Registrasi</li>
 						</ul>
 					</div>
 					<!-- Breadcrumb row END -->
@@ -32,34 +32,36 @@
             <div class="container">
                 <div class="row">
 					<div class="col-md-12 text-center">
-						<h3 class="font-weight-700 m-t0 m-b20">Create An Account</h3>
+						<h3 class="font-weight-700 m-t0 m-b20">Buat Akun Baru</h3>
 					</div>
 				</div>
                 <div class="row">
 					<div class="col-md-12 m-b30">
 						<div class="p-a30 border-1  max-w500 m-auto">
+							@include('errors/pesan_error')
 							<div class="tab-content">
-								<form id="login" class="tab-pane active">
-									<h4 class="font-weight-700">PERSONAL INFORMATION</h4>
-									<p class="font-weight-600">If you have an account with us, please log in.</p>
+								<form id="login" class="tab-pane active" action="{{url('simpan-pelanggan')}}" method="post">
+									{{ csrf_field() }}	
+									<h4 class="font-weight-700">Form Registrasi</h4>
+									<p class="font-weight-600">Isi Form Sesuai dengan data Anda.</p>
 									<div class="form-group">
-										<label class="font-weight-700">First Name *</label>
-										<input name="dzName" required="" class="form-control" placeholder="First Name" type="text">
+										<label class="font-weight-700">Nama *</label>
+										<input name="nama" required="" class="form-control" placeholder="Nama" type="text">
 									</div>
 									<div class="form-group">
-										<label class="font-weight-700">Last Name *</label>
-										<input name="dzName" required="" class="form-control" placeholder="Last Name" type="text">
+										<label class="font-weight-700">Email *</label>
+										<input name="email" required="" class="form-control" placeholder="Email" type="email">
 									</div>
 									<div class="form-group">
-										<label class="font-weight-700">E-MAIL *</label>
-										<input name="dzName" required="" class="form-control" placeholder="Your Email Id" type="email">
+										<label class="font-weight-700">Telepon *</label>
+										<input name="telepon" required="" class="form-control" placeholder="Telepon" type="text">
 									</div>
 									<div class="form-group">
-										<label class="font-weight-700">PASSWORD *</label>
-										<input name="dzName" required="" class="form-control " placeholder="Type Password" type="password">
+										<label class="font-weight-700">Password *</label>
+										<input name="password" required="" class="form-control" placeholder="Password" type="password">
 									</div>
 									<div class="text-left">
-										<button class="site-button button-lg radius-no outline outline-2">CREATE</button>
+										<button type="submit" class="site-button button-lg radius-no outline outline-2">Buat</button>
 									</div>
 								</form>
 							</div>

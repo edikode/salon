@@ -15,6 +15,11 @@ Route::post('simpan-pelanggan', 'Pelanggan\DaftarPelanggan@simpan');
 Route::get('daftar-pelapak', 'Pelanggan\DaftarPelapak@index');
 Route::post('simpan-pelapak', 'Pelanggan\DaftarPelapak@simpan');
 
+Route::get('pesan/{link}', 'Pelanggan\PesanController@index');
+Route::post('simpan-pesanan', 'Pelanggan\PesanController@simpan');
+
+Route::get('status/{link}', 'Pelanggan\StatusController@index');
+
 Route::get('/{link}', 'Pelanggan\HalamanController@index');
 
 Route::group(['prefix' => 'admin'], function () 
@@ -48,6 +53,10 @@ Route::group(['prefix' => 'admin'], function ()
     Route::resource('/pelapak', 'Admin\Pelapak');
     Route::get('/pelanggan/cari', 'Admin\Pelanggan@cari');
     Route::resource('/pelanggan', 'Admin\Pelanggan');
+
+    Route::get('/pemesanan/konfirmasi/{id}', 'Admin\PemesananController@konfirmasibayar');
+    Route::get('/pemesanan/cari', 'Admin\PemesananController@cari');
+    Route::resource('/pemesanan', 'Admin\PemesananController');
     
     
 });
